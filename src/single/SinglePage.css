@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Inter";
+}
+
+.container {
+     max-width: 1240px;
+     margin: 0 auto;
+     padding: 20px;
+     height: 100%;
+}
+.single-section {
+     width: 100vw;
+     height: 100vh;
+}
+.single-wrapper {
+     width: 100%;
+     height: 100%;
+}
+.wrapperCard {
+     width: 100%;
+     height: 100%;
+     background-color: #eef5f676;
+     display: flex;
+     gap: 40px;
+     border-radius: 15px;
+     overflow: hidden;
+}
+.wrapperCard img {
+     width: 100%;
+     height: 100%;
+}
+.wrapperCardContent {
+     margin-top: 40px;
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     gap: 50px;
+}
+.wrapperCardContent h1 {
+     font-size: 36px;
+     font-weight: 500;
+     color: #fff;
+}
+.wrapperCardContent p {
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 1.5;
+     color: #fff;
+     display: inline-block;
+
+}
+
+.contentFooter {
+     margin-top: 50px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 50px;
+}
+.contentFooter p {
+     font-size: 18px;
+     font-weight: 600;
+}
+.contentFooter p a {
+     color: #fff;
+     padding-bottom: 5px;
+     text-decoration: none;
+     border-bottom: 3px solid rgb(237, 23, 16);
+}

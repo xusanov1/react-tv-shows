@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Inter";
+}
+.container {
+     padding: 20px;
+     max-width: 1240px;
+     margin: 0 auto;
+}
+
+.wrapper-title{
+     font-size: 40px;
+     font-weight: 500;
+     color: #fff;
+     margin: 14px 0;
+     text-align: center;
+     background-color: #ee111172;
+     padding: 10px;
+
+}
+
+.wrapper {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     width: 100%;
+     gap: 50px;
+}
+.wrapper-card {
+     width: 100%;
+     max-width: 300px;
+     background-color: #e9f2f36a;
+     border-radius: 2px;
+}
+.wrapper-card img {
+     width: 100%;
+     height: 300px;
+}
+.card-text {
+     padding: 0 10px 10px 10px;
+}
+.card-text h1 {
+     font-size: 24px;
+     font-weight: 500;
+     color: #fff;
+     margin: 14px 0;
+}
+.card-text p {
+     font-size: 15px;
+     font-weight: 600;
+     margin: 30px 0;
+     color: #fff;
+     display: inline-block;
+}
+.btn {
+     width: 100%;
+}
+.button {
+     cursor: pointer;
+     width: 100%;
+     padding: 14px 0;
+     border: none;
+     background-color: #000;
+     color: #fff;
+     text-decoration: none;
+     transition: all .5s ease-in-out;
+}
+.button:hover {
+     background-color: #c92516;
+     border: 2px solid transparent;
+}
+
+.buttonView {
+     margin: 50px 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;   
+}
+.buttonView button {
+     padding: 15px 54px;
+     border: none;
+     border-radius: 5px;
+     color: #fff;
+     font-size: 18px;
+     background-color: #f52112;
+     font-weight: 700;
+}
+#form {
+     width: 100%;
+     padding: 100px;
+     margin: 30px 0;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #ffffff72;
+}
+#search {
+     width: 100%;
+     max-width: 500px;
+     height: 50px;
+     padding: 10px;
+     font-size: 15px;
+     font-weight: 500;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid transparent;
+     transition: all .5s ease-in-out;
+     background-color: #fff;
+     box-shadow: 1px 1px 1px 1px #fff;
+}
+#search:focus {
+     border-bottom: 2px solid #000;
+}
